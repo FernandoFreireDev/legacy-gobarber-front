@@ -5,11 +5,13 @@ import Routes from './routes';
 import History from './services/history';
 
 import './config/ReactotronConfig';
+import GloblaStyle from './styles/global';
 
 function App() {
   return (
     <Router history={History}>
       <Routes />
+      <GloblaStyle />
     </Router>
   );
 }
