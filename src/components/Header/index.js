@@ -28,8 +28,8 @@ export default function Header() {
             <img
               src={
                 profile.avatar == null
-                  ? profile.avatar.url
-                  : 'https://api.adorable.io/avatars/50/abott@adorable.png'
+                  ? 'https://api.adorable.io/avatars/50/abott@adorable.png'
+                  : profile.avatar.url
               }
               alt={profile.name}
             />
